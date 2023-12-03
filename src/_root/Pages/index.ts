@@ -1,12 +1,10 @@
-import Home from "./Home";
-import AllUsers from "./AllUsers";
-import CreatePost from "./CreatePost";
-import Explore from "./Explore";
-import PostDetails from "./PostDetails";
-import Profile from "./Profile";
-import Saved from "./Saved";
-import UpdateProfile from "./UpdateProfile";
-import EditPost from "./EditPost";
-import LikedPosts from "./LikedPosts";
-
-export { Home, AllUsers, CreatePost, Explore, PostDetails, Profile, Saved, UpdateProfile, EditPost, LikedPosts };
+export { default as Home } from "./Home";
+export { default as Explore } from "./Explore";
+export { default as Saved } from "./Saved";
+export { default as CreatePost } from "./CreatePost";
+export { default as Profile } from "./Profile";
+export { default as UpdateProfile } from "./UpdateProfile";
+export { default as EditPost } from "./EditPost";
+export { default as PostDetails } from "./PostDetails";
+export { default as LikedPosts } from "./LikedPosts";
+export { default as AllUsers } from "./AllUsers";

@@ -5,8 +5,8 @@ import AuthLayout from "./_auth/AuthLayout";
 import RouteLayout from "./_root/RouteLayout";
 
 import { SigninForm, SignupForm } from "./_auth/forms";
-import { AllUsers, CreatePost, EditPost, Explore, Home, LikedPosts, PostDetails, Profile, Saved, UpdateProfile } from "./_root/Pages";
 import { Toaster } from "./components/ui/toaster";
+import { AllUsers, CreatePost, EditPost, Explore, Home, LikedPosts, PostDetails, Profile, Saved, UpdateProfile } from "./_root/Pages";
 
 function App() {
   return (
